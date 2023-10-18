@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(133, 117, 117);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(75, 60, 60);
+    box-shadow: 1px 2px 6px black;
+    padding: 3px;
+    margin: 10px 7px;
+}
+
+.conteudo-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background-color: #fff;
+    padding: 1px;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 8px 0px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.escritor {
+    background-color: rgba(70, 66, 66, 0.295);
+}
+
+.rodape {
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    padding: 5px;
+}
+
+.bola {
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    margin: 10px 0px;
+    border-radius: 50%;
+    box-shadow: 7px 5px 14px 8px black;
+}
+
+.bola:hover {
+    background-color: rgba(96, 71, 71, 0.634);
+    cursor: pointer;
+}
+
+#bolas {
+    margin: 10px 0px;
+    background-color: rgb(70, 70, 108);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}

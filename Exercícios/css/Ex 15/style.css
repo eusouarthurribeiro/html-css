@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(194, 255, 255);
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.468);
+
+}
+
+
+#texto-principal {
+    text-align: justify;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-left: 5%;
+}
+
+ol>li {
+    list-style-type: none;
+}
+
+.pessoa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-pessoas-ricas {
+    width: 60%;
+    left: 365px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}

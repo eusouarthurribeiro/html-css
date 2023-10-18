@@ -1,0 +1,41 @@
+@charset "UTF8";
+head {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: #141414;
+}
+.titulo {
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+}
+.box-usuarios { 
+   justify-content: center;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+  
+}
+.img-perfil{
+    background-color: #333;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 10vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+    position: relative;
+    text-decoration: none;
+    width: 10vw;
+}
+p {
+    justify-content: center;
+    background-color: 
+}
+

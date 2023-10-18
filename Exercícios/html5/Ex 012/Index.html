@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+    <link rel="shortcut icon" href="Gimp/nike logo.PNG" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Imagens dinamicas e adaptaveis</h1>
+    <p>Logo seguir será mostrado uma imagem que é adaptaveiu.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="Gimp/nike-p.PNG" type="image/PNG">
+        <source media="(max-width: 1050px )" srcset="Gimp/McLogo-m.PNG" type="image/PNG">
+        <img src="Gimp/Mc-g.PNG" alt="Imagem grande">
+    </picture>
+    <h1>Agora vamos para os áudios</h1>
+    <p>Aqui em baixo esta o áudio de uma música tranquila.</p>
+    <audio controls autoplay src="Àudios/Savior - Telecasted.mp3"></audio>
+
+    <p>Agora vamos tentar da seugunda maneira</p>
+    <audio preload="metadata" controls>
+        <source controls src="Àudios/Savior - Telecasted.mp3" type="audio/wav">
+        <p>Caso não carregue baixe pelo <strong>link cliquando</strong> <a href="Àudios/Savior - Telecasted.mp3">Aqui</a></p>
+    </audio>
+
+</body>
+
+</html>
