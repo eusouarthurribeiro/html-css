@@ -5,6 +5,10 @@
     margin: 0px;
 
 }
+html,body {
+    background-color: rgba(0, 0, 0, 0.182);
+}
+
 
 .menu {
     background-color: black;
@@ -17,6 +21,7 @@
 a {
     color: #fff;
     text-decoration: none;
+    font-weight: bolder;
 }
 a:hover {
     text-decoration: underline;
@@ -24,7 +29,23 @@ a:hover {
 h1 {
     font-variant: small-caps;
 }
+section{
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+}
 
+.normal{
+    background-color: #fff;
+    color: black;
+}
+.imagem {
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+} 
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.197);
+    width: 400px;
+}
 .rodape{
     background-color: black;
     color: #fff;
