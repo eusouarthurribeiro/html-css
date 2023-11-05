@@ -15,7 +15,7 @@
             margin-top: 0px;
             padding-top: 30px;
             text-align: center;
-           
+
         }
 
         main {
@@ -27,6 +27,7 @@
         }
 
         table {
+            position: relative;
             background-color: #fff;
             width: 500px;
             border-collapse: collapse;
@@ -40,9 +41,20 @@
             padding: 5px;
         }
 
+        tbody>tr:nth-child(even) {
+            background-color: lightgray;
+
+        }
+
         thead {
             background-color: rgb(63, 62, 62);
             color: #fff;
+        }
+
+        thead>tr>th {
+            position: sticky;
+            top: -1px;
+            background-color:  rgb(63, 62, 62);
         }
 
         th>img {
@@ -73,104 +85,106 @@
         <table>
             <thead>
                 <tr>
-                    <th>Territótio</th>
-                    <th>Estimativa </th>
+                    <th scope="col">Territótio</th>
+                    <th scope="col">Estimativa </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th class="paises">
+                    <td class="paises">
                         <img src="imagnes/india.webp" alt="india">
                         India
-                    </th>
+                    </td>
                     <td class="valores">1 429 921 746</td>
                 </tr>
                 <tr>
-                    <th class="paises"> <img src="imagnes/china.webp" alt="china">China</th>
+                    <td class="paises"> <img src="imagnes/china.webp" alt="china">China</td>
                     <td class="valores">1 426 391 281</td>
                 </tr>
                 <tr>
-                    <th class="paises"> <img src="imagnes/estados-unidos.webp" alt="E.U.A">Estados Unidos</th>
+                    <td class="paises"> <img src="imagnes/estados-unidos.webp" alt="E.U.A">Estados Unidos</td>
                     <td class="valores"> 339 987 103</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/indonesia.webp" alt="indonesia">Indonésia</th>
+                    <td class="paises"><img src="imagnes/indonesia.webp" alt="indonesia">Indonésia</td>
                     <td class="valores">277 184 719</td>
                 </tr>
                 <tr>
-                    <th class="paises"> <img src="imagnes/paquistão.webp" alt="">Paquistão</th>
+                    <td class="paises"> <img src="imagnes/paquistão.webp" alt="">Paquistão</td>
                     <td class="valores">24 215 932</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/nigeria.webp" alt="nigeria">Nigéria</th>
+                    <td class="paises"><img src="imagnes/nigeria.webp" alt="nigeria">Nigéria</td>
                     <td class="valores">223 899 057 2023</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/brasil.webp" alt="brasil">Brasil</th>
+                    <td class="paises"><img src="imagnes/brasil.webp" alt="brasil">Brasil</td>
                     <td class="valores">203 062 512 2022</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/bang.webp" alt="Bangladesh">Bangladesh</th>
+                    <td class="paises"><img src="imagnes/bang.webp" alt="Bangladesh">Bangladesh</td>
                     <td class="valores">172 452 382 2023</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/russia.webp" alt="russia">Rússia</th>
+                    <td class="paises"><img src="imagnes/russia.webp" alt="russia">Rússia</td>
                     <td class="valores">148 221 749 2023</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/mexico.webp" alt="mexico">México</th>
+                    <td class="paises"><img src="imagnes/mexico.webp" alt="mexico">México</td>
                     <td class="valores">134 127 189 2023</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/etiopia.webp" alt="Etiópia">Etiópia</th>
+                    <td class="paises"><img src="imagnes/etiopia.webp" alt="Etiópia">Etiópia</td>
                     <td class="valores">125 092 825 2023</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/japao.webp" alt="japão">Japão</th>
+                    <td class="paises"><img src="imagnes/japao.webp" alt="japão">Japão</td>
                     <td class="valores">124 127 899 2023</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/filipinas].webp" alt="filipinas">Filipinas</th>
+                    <td class="paises"><img src="imagnes/filipinas].webp" alt="filipinas">Filipinas</td>
                     <td class="valores">109 581 078 2020</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/egito.webp" alt="Egito">Egito</th>
+                    <td class="paises"><img src="imagnes/egito.webp" alt="Egito">Egito</td>
                     <td class="valores">102 334 404 2020</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/vietina.webp" alt="vietina">Vietname</th>
+                    <td class="paises"><img src="imagnes/vietina.webp" alt="vietina">Vietname</td>
                     <td class="valores">97 338 579 2020</td>
                 </tr>
                 <tr>
-                    <th class="paises"> <img src="imagnes/republica-dominicana.webp" alt="">República Democrática do
+                    <td class="paises"> <img src="imagnes/republica-dominicana.webp" alt="">República Democrática do
                         Congo
-                    </th>
+                    </td>
                     <td class="valores">89 561 403 2020</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/turquia.webp" alt="Turquia">Turquia</th>
+                    <td class="paises"><img src="imagnes/turquia.webp" alt="Turquia">Turquia</td>
                     <td class="valores">84 339 067 2020</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/ira.webp" alt="Irã">Irã</th>
+                    <td class="paises"><img src="imagnes/ira.webp" alt="Irã">Irã</td>
                     <td class="valores">83 992 949 2020</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/alemanha.webp" alt="alemanha">Alemanha</th>
+                    <td class="paises"><img src="imagnes/alemanha.webp" alt="alemanha">Alemanha</td>
                     <td class="valores">83 783 942 2020</td>
                 </tr>
                 <tr>
-                    <th class="paises"><img src="imagnes/tailandia.webp" alt="Tailândia">Tailândia</th>
+                    <td class="paises"><img src="imagnes/tailandia.webp" alt="Tailândia">Tailândia</td>
                     <td class="valores">69 799 978 2020</td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <th>Total</th>
+                    <th scope="row">Total</th>
                     <td><strong>XXXXXXXX</strong></td>
                 </tr>
             </tfoot>
         </table>
+      
+
     </main>
 
 </body>
